@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANTENIMIENTO DE ESPECIALIDAD"
+            android:layout_marginTop="30dp"
+            />
+        <Button
+            android:id="@+id/btn_agregar_esp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Agrega Especialidad"
+            />
+        <Button
+            android:id="@+id/btn_listar_esp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Listar Especialidad"
+            />
+        <Button
+            android:id="@+id/btn_modificar_esp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Modificar Especialidad"
+            />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="MANTENIMIENTO DE DOCTORES"
+            android:layout_marginTop="30dp"
+            />
+        <Button
+            android:id="@+id/btn_agregar_doc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Agrega doctor"
+            />
+        <Button
+            android:id="@+id/btn_listar_doc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Listar doctor"
+            />
+        <Button
+            android:id="@+id/btn_modificar_doc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Modificar doctor"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="MANTENIMIENTO DE PACIENTES"
+            android:layout_marginTop="30dp"
+            />
+
+                </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

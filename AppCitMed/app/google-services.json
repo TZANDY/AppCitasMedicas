@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84557030273",
+    "firebase_url": "https://logindemo-2df84.firebaseio.com",
+    "project_id": "logindemo-2df84",
+    "storage_bucket": "logindemo-2df84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84557030273:android:e30fdd18b258d5f3",
+        "android_client_info": {
+          "package_name": "com.cibertec.pe.appcitmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84557030273-ln33b2ng8bmjhaank4499vmahqhnhlhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cibertec.pe.appcitmed",
+            "certificate_hash": "ebdde5a5cb9d42548358cd49fe39aae2b2802e95"
+          }
+        },
+        {
+          "client_id": "84557030273-0e9j2s6bfdvvvm04f5405k55q5he39et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4j6bjr8uiyGG4OPt9PvL0cg3bJognn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84557030273-0e9j2s6bfdvvvm04f5405k55q5he39et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

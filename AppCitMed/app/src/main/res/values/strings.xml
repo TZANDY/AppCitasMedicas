@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">AppCitMed</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lbl_nombre">Nombre</string>
+    <string name="lbl_apellido">Apellido</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_clave">Clave</string>
+    <string name="lbl_celular">Celular</string>
+
+    <string name="lbl_fecha">dd/mm/AAAA</string>
+
+    <string name="btn_ingresar">INGRESAR</string>
+    <string name="btn_nuevo">Nombre</string>
+    <string name="btn_vercitas">Nombre</string>
+    <string name="btn_continuar">Nombre</string>
+    <string name="btn_pagar">Nombre</string>
+    <string name="btn_actualizar">Nombre</string>
+
+    <string-array name="spnrEstadoCivil">
+        <item>- SELECCIONE -</item>
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+
+    <string-array name="spnrTurno">
+        <item>- SELECCIONE -</item>
+        <item>[S1] - MAÑANA</item>
+        <item>[S1] - TARDE</item>
+        <item>[S1] - NOCHE</item>
+        <item>[S2] - MAÑANA</item>
+        <item>[S2] - TARDE</item>
+        <item>[S2] - NOCHE</item>
+        <item>[S3] - MAÑANA</item>
+        <item>[S3] - TARDE</item>
+        <item>[S3] - NOCHE</item>
+        <item>[S4] - MAÑANA</item>
+        <item>[S4] - TARDE</item>
+        <item>[S4] - NOCHE</item>
+        <item>[S5] - MAÑANA</item>
+        <item>[S5] - TARDE</item>
+        <item>[S5] - NOCHE</item>
+    </string-array>
+
+    <string-array name="spnrSede">
+        <item>- SELECCIONE -</item>
+        <item>LIMA</item>
+        <item>JESUS MARIA</item>
+        <item>SAN ISIDRO</item>
+        <item>CALLAO</item>
+        <item>LINCE</item>
+    </string-array>
+
+    <string-array name="spnrActivar">
+        <item>- SELECCIONE -</item>
+        <item>ACTIVADO</item>
+        <item>DESACTIVADO</item>
+    </string-array>
+
+    <string-array name="spnrEspecialidad">
+        <item>- SELECCIONE -</item>
+        <item>Medicina General</item>
+        <item>Pediatría</item>
+        <item>Ginecologia</item>
+        <item>Nutrición</item>
+        <item>Dermatología</item>
+        <item>Odontología</item>
+        <item>Endocrinología</item>
+        <item>Psicología</item>
+        <item>Oftalmología</item>
+        <item>Terapia Física</item>
+        <item>Traumatología y Ortopedia</item>
+        <item>Urología</item>
+        <item>Neurología</item>
+        <item>Nefrología</item>
+    </string-array>
+
+</resources>

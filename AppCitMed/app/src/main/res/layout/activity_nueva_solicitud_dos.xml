@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una sede"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="San Isidro - Av. Javier prado 2450"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lince - Av. Javier prado 2450"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jesus Maria - Av. Brasil 3654 cdr 3"
+                    />
+            </RadioGroup>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginStart="10dp"
+            android:text="Hora de Consulta" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/ib_obtener_hora"
+                android:layout_width="98dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp" />
+
+            <EditText
+                android:id="@+id/edt_horaconsulta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="00 : 00 am/pm" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Consulta"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edt_fechaconsulta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/lbl_fecha"
+                />
+
+            <ImageButton
+                android:id="@+id/ib_obtener_fecha"
+                android:layout_width="98dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione la Hora"
+            android:layout_marginTop="15dp"
+
+            />
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_hora1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 AM"
+            />
+        <Button
+            android:id="@+id/btn_hora2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:30 AM"
+            />
+        <Button
+            android:id="@+id/btn_hora3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:00 AM"
+            />
+        <Button
+            android:id="@+id/btn_hora4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:30 AM"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_hora5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM"
+                />
+            <Button
+                android:id="@+id/btn_hora6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 AM"
+                />
+            <Button
+                android:id="@+id/btn_hora7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:00 AM"
+                />
+            <Button
+                android:id="@+id/btn_hora8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:30 AM"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1:00 PM"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1:30 PM"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:00 PM"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:30 PM"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_pagar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@color/RojoOscuro"
+            android:text="PAGAR"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/g1_blancocrema"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PACIENTE :"
+            android:textStyle="bold"
+            android:textColor="@color/negro1"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/negro1"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/tv_apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/negro1"
+            android:text="-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNI :"
+            android:textColor="@color/negro1"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="-"
+            android:textColor="@color/negro1"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/negro1"
+            android:text="CITA PENDIENTE :"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SI"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/negro1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="NO"
+            android:textSize="17dp"
+            android:textColor="@color/RojoOscuro"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        >
+
+        <Button
+            android:id="@+id/btn_nuevasolicitud"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NUEVA SOLICITUD"
+            android:textColor="@color/g2_cremaamarillo"
+            android:background="@color/g2_verdeopaco"
+        />
+        <Button
+            android:id="@+id/btn_referencias"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="MIS CITAS"
+            android:textColor="@color/g2_cremaamarillo"
+            android:background="@color/g2_celestecrema"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

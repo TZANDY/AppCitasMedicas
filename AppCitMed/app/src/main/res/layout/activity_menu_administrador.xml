@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g1_blancocrema"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMINISTRADOR :"
+            android:textColor="@color/negro1"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="@color/negro1"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/tv_apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/negro1"
+            android:textSize="16dp"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNI :"
+            android:textColor="@color/negro1"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="-"
+            android:textColor="@color/negro1"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        >
+        <Button
+            android:id="@+id/btn_registrar_esp_re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="[RE] ESPECIALISTA"
+            android:textColor="@color/g2_cremaamarillo"
+            android:background="@color/g2_celestecrema"
+            />
+        <Button
+            android:id="@+id/btn_op_esp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="[OP] ESPECIALISTA"
+            android:textColor="@color/g2_cremaamarillo"
+            android:background="@color/g2_verdecrema"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="* *  S I M U L A C I O N  * *"
+                />
+            <Button
+                android:id="@+id/btn_registrar_aseg_re"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="REGISTRAR NUEVO ASEGURADO"
+                android:textColor="@color/g2_cremaamarillo"
+                android:background="@color/g2_verdeopaco"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

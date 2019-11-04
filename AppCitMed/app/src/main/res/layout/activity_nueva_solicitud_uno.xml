@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/g1_blancocrema"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="@color/negro1"
+                android:layout_gravity="center"
+                android:text="NUEVA CITA MEDICA" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/negro1"
+                    android:layout_marginStart="10dp"
+                    android:text="ESPECIALIDAD" />
+
+                <Spinner
+                    android:id="@+id/spn_especialidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:entries="@array/spnrEspecialidad"></Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:textColor="@color/negro1"
+                            android:layout_marginStart="10dp"
+                            android:text="ESPECIALISTA" />
+                        <ProgressBar
+                            android:id="@+id/progressBar2"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_width="wrap_content"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content" />
+
+                        <ListView
+                            android:id="@+id/lst_especialistas"
+                            android:layout_width="fill_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="10dp">
+                        </ListView>
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/negro1"
+                    android:layout_marginStart="10dp"
+                    android:text="TURNO" />
+                <ListView
+                    android:id="@+id/lst_turno"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp">
+                </ListView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/negro1"
+                    android:layout_marginStart="10dp"
+                    android:text="SEDE" />
+                <ListView
+                    android:id="@+id/lst_sede"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp">
+                </ListView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textSize="17dp"
+                android:textColor="@color/negro1"
+                android:text="FECHA DE CONSULTA" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/ib_obtener_fecha"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginRight="1dp"
+                    android:backgroundTint="@color/negro1"
+                    android:background="@drawable/calendario"/>
+                <EditText
+                    android:id="@+id/edt_fechaconsulta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:layout_marginStart="10dp"
+                    android:hint="@string/lbl_fecha" />
+            </LinearLayout>
+
+
+
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_marginTop="5dp"
+
+                android:visibility="gone"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_reservar_cita"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:background="@color/naranja2"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="@color/g1_blancocrema"
+                android:text="RESERVAR" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

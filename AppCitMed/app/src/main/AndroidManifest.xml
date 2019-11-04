@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cibertec.pe.appcitmed">
+
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity
+
+        android:name=".Bienvenido"
+
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".RegistroCita">
+
+    </activity>
+        <activity
+        android:name=".MenuPrincipal">
+    </activity>
+
+    <activity
+        android:name=".REEspecialista">
+    </activity>
+
+    <activity
+        android:name=".ListaCita">
+
+    </activity>
+        <activity
+            android:name=".ListaCitaXespecialista">
+
+        </activity>
+    <activity
+        android:name=".MenuPrincipalEspecialista">
+
+    </activity>
+    <activity
+        android:name=".MenuPrincipalAdministrador">
+
+    </activity>
+    <activity
+        android:name=".RegistroEspecialista">
+
+    </activity>
+    <activity
+        android:name=".RegistroPaciente">
+
+    </activity>
+        <activity
+            android:name=".LoginEspecialista">
+
+        </activity>
+        <activity
+            android:name=".LoginPaciente">
+
+        </activity>
+        <activity
+            android:name=".Login">
+
+        </activity>
+        <activity
+            android:name=".OPEspecialista">
+
+        </activity>
+        <activity
+            android:name=".REPacienteA">
+
+        </activity>
+
+
+
+
+
+
+</application>
+
+</manifest>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    android:background="@color/g1_blancocrema"
+        >
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO DE ESPECIALISTA"
+            android:textStyle="bold"
+            android:textColor="@color/negro1"
+            android:textAlignment="center"
+            android:textSize="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/edt_nom_esp_re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/lbl_nombre"
+            />
+
+        <EditText
+            android:id="@+id/edt_ape_esp_re"
+            android:layout_width="fill_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbl_apellido"
+            />
+
+        <EditText
+            android:id="@+id/edt_dni_re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="DNI"
+
+            />
+
+        <EditText
+            android:id="@+id/edt_email_esp_re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/lbl_email"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:text="Fecha de Nacimiento"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/ib_fnac_re"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/calendario"
+                />
+            <EditText
+                android:id="@+id/edt_fnacimiento_espe_re"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layout_marginStart="10dp"
+                android:hint="@string/lbl_fecha"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_cell_esp_re"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="number"
+            android:hint="@string/lbl_celular"
+            />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="ESTADO CIVIL"
+                android:textSize="17dp"
+                />
+            <Spinner
+                android:id="@+id/spn_ec_esp_re"
+                android:entries="@array/spnrEstadoCivil"
+                android:textAlignment="center"
+                android:layout_width="200dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                >
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ESPECIALIDAD"
+                android:textSize="17dp"
+                />
+            <Spinner
+                android:id="@+id/spn_epcld_esp_re"
+                android:entries="@array/spnrEspecialidad"
+                android:textAlignment="center"
+                android:layout_width="200dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:text="TURNO"
+                />
+            <Spinner
+                android:id="@+id/spn_horario_esp_re"
+                android:entries="@array/spnrTurno"
+                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_marginTop="6dp"
+                android:textAlignment="center"
+                >
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:text="SEDE"
+                />
+            <ListView
+                android:id="@+id/lst_sede_re"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                >
+            </ListView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_registrarseR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/naranja2"
+            android:textSize="17dp"
+            android:textColor="@color/g1_blancocrema"
+            android:text="Registrar" />
+    </LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>
+

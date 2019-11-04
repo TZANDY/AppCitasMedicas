@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="PACIENTE"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edt_dnipaciente"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:hint="DNI"
+        android:textStyle="bold"
+        android:background="@color/gris1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btn_buscarpaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_dnipaciente"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:text="DNI"
+        android:background="@color/negro1"
+        android:textSize="17dp"
+        android:textColor="@color/blanco"
+        />
+    <TextView
+        android:id="@+id/tv_nombrepaciente"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="NOMBRE"
+        android:textSize="17dp"
+        android:textColor="@color/blanco"
+        android:background="@color/negro1"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_apellidopaciente"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="APELLIDO"
+        android:textSize="17dp"
+        android:background="@color/negro1"
+        android:textColor="@color/blanco"
+        />
+
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="ACEPTAR"
+        android:textColor="@color/blanco"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/RojoOscuro"
+        />
+
+
+
+
+
+</LinearLayout>

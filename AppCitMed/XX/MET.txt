@@ -1,0 +1,12 @@
+ /*
+        int radioButtonid = radioGroup1.getCheckedRadioButtonId();
+        View radioButton = radioGroup1.findViewById(radioButtonid);
+        int indice = radioGroup1.indexOfChild(radioButton);
+
+        switch (indice){
+            case 1:nombredoctor="doc1";break;
+            case 2:nombredoctor="doc2";break;
+            case 3:nombredoctor="doc3";break;
+
+        }
+        */
